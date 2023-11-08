@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react-swc'
 import { loadEnv } from 'vite';
 
 export default defineConfig(({ mode }) => {
-  const basename = mode === 'production' ? '/Admin-Dashboard/' : '/';
+  const basename = mode === 'production' ? '/Portfolio/' : '/';
   // eslint-disable-next-line no-undef
   const env = loadEnv(mode, process.cwd());
   return {
